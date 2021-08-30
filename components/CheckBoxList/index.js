@@ -14,7 +14,6 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     maxWidth: 360,
     backgroundColor: theme.palette.background.paper,
-    maxHeight:400
   },
 }));
 
