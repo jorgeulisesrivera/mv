@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 //   loading: () => <PageLoader />,
 // })
 
-const HomePage = dynamic(() => import('../modules/Pages/HomePage'))
+const HomePage = dynamic(() => import('../modules/pages/HomePage'))
 
 const Home = () => {
   return (<PageInit><HomePage/></PageInit>)
